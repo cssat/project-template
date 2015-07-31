@@ -1,0 +1,7 @@
+# Ignore build dependencies
+assets/node_modules
+assets/.sass-cache
+
+# Ignore data files
+data/*
+!data/README.md

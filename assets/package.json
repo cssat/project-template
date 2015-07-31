@@ -1,0 +1,9 @@
+{
+  "name": "visualization-starter-project",
+  "version": "0.0.0",
+  "description": "Default scaffolding for a POC visualization project",
+  "author": "Erika Deal",
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  }
+}
