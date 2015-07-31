@@ -2,6 +2,6 @@
 assets/node_modules
 assets/.sass-cache
 
-# Ignore data files
+# Ignore data files EXCEPT for the README
 data/*
 !data/README.md

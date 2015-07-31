@@ -18,10 +18,13 @@ Use this section to describe briefly how the project is put together
 
 ## Assets
 * CSS
+	* styles.css and styles.min.css are built from the files in the sass folder
 
 * JS
+	* app.min.js is build from app.js, which requires and initializes the modules in the `modules` folder. This is preferable to putting all of the functions in one file because it maintains separation of different parts of the app.
 
 * Sass
+	* Stylesheets are organized into `base`, `components` and `theme` folders to keep CSS simple and separated. These files are included into `styles.scss`; comment out the lines of any files you don't need for your project.
 
 ## Data
 Use this section to describe what data is consumed by the application and how.
