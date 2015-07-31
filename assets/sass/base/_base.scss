@@ -1,9 +1,14 @@
 /*
  * Base Styles
  *
- * These are the styles that underpin the site.
+ * Global styles applied to top-level elements.
  *
  * Author: 
  * Contact:
  * Date Created:
 */
+
+html,
+body {
+	background: $off-white;
+}
