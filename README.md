@@ -35,9 +35,20 @@ This starter kit includes a Vagrantfile for a basic LAMP stack, which is close e
 
 3. If everything went smoothly, you should now be able to visit the home page for the starter project at http://192.168.33.10/. If you got error messages along the way, please consult the Node, VirtualBox or Vagrant documentation depending on what threw the error.
 
-4. To start writing JavaScript/CSS, `cd` into the `public/assets` directory and type `gulp watch`. Gulp will listen for changes (saves) on your Sass and Jacascript files and bundle the changes into minified files for production.
+4. Once you have verified that the project is up and running, set up a new repo for that project so that you can start committing your work.
+  * Create a new, empty repo for your project in GitHub (we can't fork within the organization)
+  * Then run the following commands from the root of your project:
 
-5. When you are done working, type `vagrant destroy` at the project root and remember to commit your changes!
+  ```
+  git remote set-url origin https://github.com/pocdata/NEWREPOSITORY.git
+  git remote -v //Verify that it has changed
+  git push -u origin master
+  ```
+
+5. To start writing JavaScript/CSS, `cd` into the `public/assets` directory and type `gulp watch`. Gulp will listen for changes (saves) on your Sass and Jacascript files and bundle the changes into minified files for production.
+
+6. When you are done working, type `vagrant destroy` at the project root and remember to commit your changes!
+
 
 ## Assets
 
