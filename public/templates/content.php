@@ -21,14 +21,23 @@ include_once('header.php');
     <!-- Visualization content goes in the main content area to the right. You will generally
          want to use tabs unless there is no text content at all. -->
     <div id="visualization-content">
+    	<!-- Title row -->
 	    <div id="data-title">
-			<h1>Hello, World</h1>
+			<h1><?php echo $meta["title"]; ?></h1>
+
+			<!-- Print the subtitle if we have it -->
+			<?php
+			 if($meta["subtitle"]): ?>
+			 	<h4><?php echo $meta["subtitle"]; ?></h4>
+			<?php endif;?>
 		</div>
+
+		<!-- Container for graph content. Replace with tabs if needed. See http://materializecss.com/tabs.html
+		     for details about how to set up tabs -->
 		<div id="graph">
-			<p>Start setting up your project!</p>
-			<p>Content and metadata are available on this page using the $content, $meta and $config
-			   variables. $Meta includes basic page information and $config includes an array of 
-			   options particular to this visualization.</p>
+			<?php echo $content; ?>
+			<p>This is the config output. You can use it to initialize your app: </p>
+			<p><?php print_r($config); ?></p>
 	   </div>
 	</div>
 

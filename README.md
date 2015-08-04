@@ -31,6 +31,7 @@ This starter kit includes a Vagrantfile for a basic LAMP stack, which is close e
   * `cd ../../`
   * `vagrant up`
   	* The first time you type this command, it will need to download the virtual box we're using for the development environment, so don't be surprised if it takes a little while.
+    * The virtual box we are using is [Scotch Box](https://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works), a basic LAMP stack that will work for any PHP/JavaScript work we need to do.
 
 3. If everything went smoothly, you should now be able to visit the home page for the starter project at http://192.168.33.10/. If you got error messages along the way, please consult the Node, VirtualBox or Vagrant documentation depending on what threw the error.
 
@@ -61,6 +62,10 @@ This folder includes all of the styles and functionality for a given page. It us
 	* Basic configuration options for bundling JavaScript and Sass and outputting the results as JS and CSS. Please see the [Gulp documentation](http://gulpjs.com/) for details about how to add to or modify this file.
 * package.json
 	* Defines which Node modules are used by Gulp
+
+## Content
+
+A sample content file is included with this project. If you want to create more than one instance of the project, you should create a separate repository for the content files and include it in this repo as a [git subtree](https://medium.com/@v/git-subtrees-a-tutorial-6ff568381844). That way the content can live separately from the framework and be included in/consumed by the DAta Portal index site as well as this framework.
 
 ## Data
 Use this section to describe what data is consumed by the application and how.
