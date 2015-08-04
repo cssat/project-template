@@ -11,3 +11,11 @@
 $black: #333;
 $white: #fff;
 $off-white: #f5f5f5;
+
+
+$purple: #1F0535;
+$medium-purple: tint($purple, 15%);
+$light-purple: tint($medium-purple, 10%);
+$text-purple: #815aa2;
+
+$red: rgb(237, 60, 60);

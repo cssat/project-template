@@ -7,3 +7,66 @@
  * Contact:
  * Date Created:
 */
+
+nav {
+ 	background-color: #fff;
+ 	box-shadow: none;
+ }
+
+ nav ul a {
+ 	color: #444;
+ }
+
+ nav .nav-wrapper i {
+ 	display: inline-block;
+ }
+
+ nav .button-collapse i {
+ 	font-size: 2rem;
+ }
+
+ nav a.button-collapse {
+ 	color: #565656;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+ 	font-size: 2rem;
+ }
+
+ a.brand-logo {
+ 	color: #565656;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+ 	font-size: 1.5rem;
+ 	padding-left: .5rem;
+ }
+
+ nav ul.right {
+ 	display: none;
+ }
+
+ nav ul li:hover, nav ul li.active {
+ 	background-color: #fff;
+ }
+
+ .tag.btn {
+ 	margin-right: 10px;
+ 	padding: 0 .75rem;
+
+ 	&:hover {
+ 		cursor: pointer;
+ 		background: #ccc!important;
+ 	}
+ }
+
+// Larger screens
+@media screen and (min-width: 768px) {
+
+	nav ul.right {
+		display: block;
+		padding-right: 1rem;
+	}
+
+	 nav a.button-collapse {
+	 	margin-left: 255px;
+	 }
+}

@@ -10,4 +10,10 @@
 
 .btn {
 	border-radius: 0;
+	background: $purple;
+	color: $white;
+
+	a {
+		color: $white;
+	}
 }

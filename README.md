@@ -27,8 +27,10 @@ This starter kit includes a Vagrantfile for a basic LAMP stack, which is close e
   * `git clone https://github.com/pocdata/project-template.git my-project`
   * `cd my-project/public/assets`
   * `npm install`
+  	* This command installs all of the modules needed for the project and may take a while.
   * `cd ../../`
   * `vagrant up`
+  	* The first time you type this command, it will need to download the virtual box we're using for the development environment, so don't be surprised if it takes a little while.
 
 3. If everything went smoothly, you should now be able to visit the home page for the starter project at http://192.168.33.10/. If you got error messages along the way, please consult the Node, VirtualBox or Vagrant documentation depending on what threw the error.
 
