@@ -1,6 +1,7 @@
 # Ignore build dependencies
 assets/node_modules
 assets/.sass-cache
+.vagrant
 
 # Ignore data files EXCEPT for the README
 data/*
